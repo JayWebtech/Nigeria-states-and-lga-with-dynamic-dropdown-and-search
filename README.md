@@ -1,7 +1,7 @@
 # Nigeria states and lga with dynamic dropdown and search 🚀🚀
 
 ### [Please do well to follow me on my Media Accounts => Twitter: [Twitter](https://twitter.com/jaykosai), [Youtube](https://youtu.be/xo-jkK1IsM4)]
-
+#### Demo [View Demo](https://jaywebtech.github.io/Nigeria-states-and-lga-with-dynamic-dropdown-and-search/)
 ![image](https://user-images.githubusercontent.com/45628811/212223209-084aca7e-9c5a-4b96-a281-0d1c97656e8a.png)
 
 
