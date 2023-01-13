@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigeria States & Local Government</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.15.2/css/selectize.default.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.15.2/js/selectize.min.js"></script>
+</head>
+<body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                        <div class="box">
+                            <h3>Nigeria States & Local Government</h3>
+                            <label for="">State</label>
+                            <select placeholder="Select State" autocomplete="off" name="state" id="state" class="select">
+                                <option value=""></option>
+                                <option value="Abia">Abia</option>
+                                <option value="Adamawa">Adamawa</option>
+                                <option value="AkwaIbom">AkwaIbom</option>
+                                <option value="Anambra">Anambra</option>
+                                <option value="Bauchi">Bauchi</option>
+                                <option value="Bayelsa">Bayelsa</option>
+                                <option value="Benue">Benue</option>
+                                <option value="Borno">Borno</option>
+                                <option value="Cross River">Cross River</option>
+                                <option value="Delta">Delta</option>
+                                <option value="Ebonyi">Ebonyi</option>
+                                <option value="Edo">Edo</option>
+                                <option value="Ekiti">Ekiti</option>
+                                <option value="Enugu">Enugu</option>
+                                <option value="FCT">FCT</option>
+                                <option value="Gombe">Gombe</option>
+                                <option value="Imo">Imo</option>
+                                <option value="Jigawa">Jigawa</option>
+                                <option value="Kaduna">Kaduna</option>
+                                <option value="Kano">Kano</option>
+                                <option value="Katsina">Katsina</option>
+                                <option value="Kebbi">Kebbi</option>
+                                <option value="Kogi">Kogi</option>
+                                <option value="Kwara">Kwara</option>
+                                <option value="Lagos">Lagos</option>
+                                <option value="Nasarawa">Nasarawa</option>
+                                <option value="Niger">Niger</option>
+                                <option value="Ogun">Ogun</option>
+                                <option value="Ondo">Ondo</option>
+                                <option value="Osun">Osun</option>
+                                <option value="Oyo">Oyo</option>
+                                <option value="Plateau">Plateau</option>
+                                <option value="Rivers">Rivers</option>
+                                <option value="Sokoto">Sokoto</option>
+                                <option value="Taraba">Taraba</option>
+                                <option value="Yobe">Yobe</option>
+                                <option value="Zamfara">Zamafara</option>
+                            </select>
+                            <br>
+                            <label>Local Government</label>
+                            <select placeholder="Select Local Government" autocomplete="off" name="lga" id="lga" class="lga">
+                                <option value=""></option>
+                            </select>    
+                            <br>
+                            <button class="btn btn-success btn-lg btn-block"><span class="fa fa-sign-in"></span> Made with 💖 by Adamu Jethro</button>  
+                            <h6><a href="">Visit Github Repo to download source files</a></span></h6>
+                               
+                        </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="box-2">
+                        <center>
+                            <img class="wow bounceInUp" src="assets/image.png" alt="">
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script>
+    $( document ).ready(function() {
+        $('#state').selectize();
+        $('#lga').selectize();
+    });
+</script>
+<script src="lga.js"></script>
+</body>
+</html>
