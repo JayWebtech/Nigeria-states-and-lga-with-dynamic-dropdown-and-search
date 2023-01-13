@@ -23,7 +23,7 @@ body{
     color: #000;
     border:  2px solid #81b687;
     box-shadow: none;
-    font-size: 14px;
+    font-size: 10px !important;
 }
 .container .box button:hover{
     background-color: #81b687;
